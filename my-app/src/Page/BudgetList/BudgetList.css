@@ -1,0 +1,187 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.budget-list-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.budget-list-containerrr {
+  display: flex;
+  height: 78vh;
+  flex-direction: column;
+  justify-content: center;
+}
+.sub-container {
+  margin-left: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.input-filter {
+  padding: 5px;
+  border: 1px solid #dddddd;
+}
+
+.filters-btn {
+  padding: 4px 2.5vw;
+  background: #ffa500;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.add-btn {
+  padding: 7px 2.5vw;
+  color: #dddddd;
+  background: black;
+  border: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+.wrapper {
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+.table-content {
+  border-collapse: collapse;
+  margin: 47px 21px;
+  font-size: 0.9em;
+  width: 60vw;
+}
+.table-content thead tr {
+  text-align: center;
+  font-weight: bold;
+}
+.table-content td {
+  text-align: center;
+}
+.table-content tbody tr,
+.table-content tbody th {
+  border: 1px solid #dddddd;
+}
+.budget-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  align-items: center;
+}
+.add-sub-container {
+  flex-direction: column;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  align-items: center;
+  width: 25vw;
+  height: 25px;
+  border: 1px solid;
+}
+.add-h1 {
+  font-size: 2vw;
+}
+.addbudget-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-add-budget {
+  color: #dddddd;
+  background: black;
+  padding: 4px 1vw;
+  border: aliceblue;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+.add-budget-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  height: 30vh;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  border-radius: 20px;
+}
+.h1-cros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 24vw;
+}
+.delete {
+  padding: 10px;
+  border-radius: 10px;
+  color: red;
+}
+.edit {
+  padding: 10px;
+  color: #ffa500;
+  border-radius: 10px;
+}
+.edit:hover {
+  background-color: burlywood;
+}
+.delete:hover {
+  background-color: burlywood;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Date-input {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.table-input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 15vw;
+  height: 3vh;
+}
+.save-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.save-btn {
+  padding: 3px 10px;
+  background: #ffa500;
+  border: none;
+  border-radius: 5px;
+}
